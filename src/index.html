@@ -15,15 +15,15 @@
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
       <fieldset class="main">
         <legend>Personal information</legend>
-        <label class="personalInformation">
+        <label class="info">
         Surname:
           <input type="text" name="surname" autocomplete="off">
         </label>
-        <label class="personalInformation">
+        <label class="info">
         Name:
           <input type="text" name="name" autocomplete="off">
         </label>
-        <label class="personalInformation">
+        <label class="info">
         How old are you?
           <input type="number"
                 name="age"
@@ -31,25 +31,25 @@
                 max="100"
                 value="12">
         </label>
-        <label class="personalInformation">
+        <label class="info">
         Full date of birth:
           <input type="date" name="dateOfBirth">
         </label>
-        <label class="personalInformation">
+        <label class="info">
          I accept the terms of the agreement
           <input type="checkbox" name="terms" required>
         </label>
       </fieldset>
       <fieldset>
         <legend> Registration </legend>
-        <label class="registration">
+        <label class="info">
          E- mail:
           <input type="email"
                  name="email"
                  placeholder="email@example.com"
                  required>
         </label>
-        <label class="registration">
+        <label class="info">
         Password
           <input type="password"
                  name="password"
@@ -60,7 +60,7 @@
       </fieldset>
       <fieldset class="main">
         <legend> An interesting fact about you! </legend>
-        <label class="interestingFacts">
+        <label class="info">
         Do you love cats?
         Yes
           <input type="radio"
@@ -70,15 +70,15 @@
         No
           <input type="radio" name="cats"  value="no">
         </label>
-        <label class="interestingFacts">
+        <label class="info">
          What is your favorite color?
           <input type="color" name="color">
         </label>
-        <label  class="interestingFacts">
+        <label  class="info">
          What time do you go to bed?
           <input type="time" name="bedtime">
         </label>
-        <label  class="interestingFacts">
+        <label  class="info">
          What is your favorite brand of cars?
           <select name="cars" multiple>
             <option value="BMW"> BMW </option>
@@ -86,18 +86,18 @@
             <option value="Lada"> Lada </option>
           </select>
         </label>
-        <label  class="interestingFacts">
+        <label  class="info">
         How do you rate our work?
           <input type="range" name="ourWork">
         </label>
       </fieldset>
       <fieldset class="main">
         <legend> Additional info: </legend>
-        <label class="additionalInfo">
+        <label class="info">
         Comments:
           <textarea name="comments"></textarea>
         </label>
-        <label  class="additionalInfo">
+        <label  class="info">
         Would you recommend us?
           <select name="recommendation" class="recommendation">
             <option value="Yes"> Yes </option>
