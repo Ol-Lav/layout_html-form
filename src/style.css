@@ -1,14 +1,10 @@
 /* styles go here */
 
-.main {
-  margin: 20px 0;
+.mainFieldset {
+  margin-bottom: 20px;
 }
 
-.info {
-  margin: 10px 0;
+.info:not(:last-child) {
+  margin-bottom: 10px ;
   display: block;
-}
-
-.recommendation {
-  margin: 10px 0;
 }
