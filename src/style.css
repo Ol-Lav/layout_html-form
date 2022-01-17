@@ -4,7 +4,7 @@
   margin-bottom: 20px;
 }
 
-.info:not(:last-child) {
+.label:not(:last-child) {
   margin-bottom: 10px ;
   display: block;
 }
