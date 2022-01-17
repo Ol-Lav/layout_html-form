@@ -1,13 +1,17 @@
 /* styles go here */
 
-fieldset {
+.main {
   margin: 20px 0;
 }
 
-input {
+.personalInformation,
+.registration,
+.interestingFacts,
+.additionalInfo {
   margin: 10px 0;
+  display: block;
 }
 
-select {
+.recommendation {
   margin: 10px 0;
 }
